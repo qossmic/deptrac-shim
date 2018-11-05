@@ -1,0 +1,22 @@
+{
+    "name": "sensiolabs-de/deptrac-shim",
+    "description": "deptrac phar distribution",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Mönch",
+            "email": "simon.moench@sensiolabs.de",
+            "role": "maintainer"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "bin": [
+        "deptrac"
+    ],
+    "replace": {
+        "sensiolabs-de/deptrac": "self.version",
+        "sensiolabs-de/astrunner": "^1.0"
+    }
+}
