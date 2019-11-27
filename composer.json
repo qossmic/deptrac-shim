@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2",
         "ext-json": "*",
         "ext-tokenizer": "*",
         "ext-zlib": "*"
@@ -21,5 +21,8 @@
     "replace": {
         "sensiolabs-de/deptrac": "self.version",
         "sensiolabs-de/astrunner": "^1.0"
+    },
+    "suggest": {
+        "ext-dom": "For using the JUnit output formatter"
     }
 }
