@@ -19,7 +19,7 @@
         "deptrac"
     ],
     "replace": {
-        "qossmic/deptrac": "self.version",
+        "qossmic/deptrac": "self.version"
     },
     "suggest": {
         "ext-dom": "For using the JUnit output formatter"
