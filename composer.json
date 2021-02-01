@@ -1,11 +1,11 @@
 {
-    "name": "sensiolabs-de/deptrac-shim",
+    "name": "qossmic/deptrac-shim",
     "description": "deptrac phar distribution",
     "license": "MIT",
     "authors": [
         {
             "name": "Simon Mönch",
-            "email": "simon.moench@sensiolabs.de",
+            "email": "simon.moench@qossmic.com",
             "role": "maintainer"
         }
     ],
@@ -19,8 +19,7 @@
         "deptrac"
     ],
     "replace": {
-        "sensiolabs-de/deptrac": "self.version",
-        "sensiolabs-de/astrunner": "^1.0"
+        "qossmic/deptrac": "self.version",
     },
     "suggest": {
         "ext-dom": "For using the JUnit output formatter"
