@@ -7,10 +7,15 @@
             "name": "Simon Mönch",
             "email": "simon.moench@qossmic.com",
             "role": "maintainer"
+        },
+        {
+            "name": "Denis Brumann",
+            "email": "denis.brumann@qossmic.com",
+            "role": "maintainer"
         }
     ],
     "require": {
-        "php": "^7.4 || 8.0.*",
+        "php": "^7.4 || 8.0.* || 8.1.*",
         "ext-json": "*",
         "ext-tokenizer": "*",
         "ext-zlib": "*"
