@@ -2,6 +2,11 @@
 
 ## Usage
 
+**This repository is abandoned**, please use
+[https://github.com/qossmic/deptrac](https://github.com/qossmic/deptrac)
+instead.
+
+
 Install the package
 
 ```bash
