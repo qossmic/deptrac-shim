@@ -7,13 +7,10 @@
             "name": "Tim Glabisch"
         },
         {
-            "name": "Simon Mönch",
-            "email": "simon.moench@qossmic.com"
+            "name": "Simon Mönch"
         },
         {
-            "name": "Denis Brumann",
-            "email": "denis.brumann@qossmic.com",
-            "role": "maintainer"
+            "name": "Denis Brumann"
         }
     ],
     "require": {
@@ -25,6 +22,7 @@
     "bin": [
         "deptrac"
     ],
+    "abandoned": "qossmic/deptrac",
     "replace": {
         "qossmic/deptrac": "self.version"
     },
